@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UpworkController {
-    @GetMapping("/")
+    @GetMapping("/test")
     String hello() {
         return "Hello, World!";
     }
