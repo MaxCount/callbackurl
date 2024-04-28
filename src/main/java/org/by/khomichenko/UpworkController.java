@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class UpworkController {
-    @GetMapping("/test")
+    @GetMapping("https://maxcount.github.io/callbackurl/")
     String hello() {
         return "Hello, World!";
     }
